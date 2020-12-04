@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>desplegable1.html</title> 
+<style type="text/css">
+* { padding: 0; margin: auto; text-align: center }
+#cabecera { background-color: #fff0f0; } 
+h1 { font: bold 1.5em arial; padding: 0.5em; }
+#navegador { background-color: #663366; padding: 0.5em; }
+#navegador li { margin: 0px 5px; padding: 0.1em 1em 0.5em 1em; 
+ background-color: #9933cc; width: 12%;float: left;
+ list-style-type: none; position: relative; }
+#subseccion1, #subseccion2, #subseccion3, #subseccion4 
+ { position: absolute; top: 100%; left: 0px; 
+ background-color: #41338b; font:normal 0.8em arial; 
+ padding: 0.2em 0.5em ; display: none; } 
+#navegador li:hover { background-color: #990033; }
+#navegador li a:link, #navegador li a:visited { 
+ color: #feffe4; text-decoration: none; }
+#navegador li a:hover, #navegador li a:active { 
+ color:#ffd7a9 ; text-decoration: none; }
+.borrar { clear: both; } 
+#principal h2 { font: bold 1.5em arial; padding: 0.5em }
+#principal p { font: normal 0.9em arial; text-align: justify;
+ text-indent: 3em; padding: 0.5em 2em; }
+</style>
+<script type="text/javascript">
+function ver(n) {
+ document.getElementById("subseccion"+n).style.display="block"
+ }
+function ocultar(n) {
+ document.getElementById("subseccion"+n).style.display="none"
+ }
+</script>
+</head>
+<body>
+<div id="cabecera">
+ <h1>Mi página de la Escuela</h1>
+</div>
+<div id="navegador">
+ <ul>
+ <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+ <a href="#">Calculo Diferencial</a>
+ <div id="subseccion1">
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/calculo%20diferencial.html"> Primer Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/calculo%20diferencial%20segundo%20semestre%20.html"> Segundo Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/calculo%20diferencial%20tercer%20cemestre%20.html"> Tercer Parcial</a></p>
+ 
+ </div>
+ </li>
+ 
+ <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+ <a href="#">Fisica II</a>
+ <div id="subseccion2">
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/fisica%20ll.html"> Primer Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/fisica%20ll%20segundo%20semestre.html"> Segundo Parcial</a></p>
+<p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/fisica%20ll%20tercer%20semestre.html"> Tercer Parcial</a></p>
+ </div> 
+ </li>
+ 
+ <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+ <a href="#">Ingles V</a>
+ <div id="subseccion3">
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ingles.html"> Primer Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ingles%20segundo%20semestre%20.html"> Segundo Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ingles%20tercer%20semestre%20.html"> Tercer Parcial</a></p>
+
+ </div> 
+ </li>
+ 
+ <li id="seccion4" onmouseover="ver(4)" onmouseout="ocultar(4)">
+ <a href="#">Desarrolla Aplicaciones Web</a> 
+ <div id="subseccion4">
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/Desarrolla%20Aplicaciones%20Web.html"> Primer Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/desarrolla%20aplicasiones%20web%20segundo.html"> Segundo Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/desarrolla%20aplicasiones%20web%20tercer%20semestre%20.html"> Tercer Parcial</a></p>
+ </div>
+ </li>
+ 
+ <li id="seccion5" onmouseover="ver(5)" onmouseout="ocultar(5)">
+ <a href="#">Ciencias, Tecnologías, Valores</a> 
+ <div id="subseccion5">
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ciencias%20sociales%20.html"> Primer Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ciencias%20sociales%20%20segundo%20parcial.html"> Segundo Parcial</a></p>
+ <p><a href="file:///home/chronos/u-48d7b6f72702f5c2f4a7e5804c8836320aa291cc/MyFiles/Downloads/ciencias%20sociales%20tercer%20parcial.html"> Tercer Parcial</a></p>
+ </div>
+ </li>
+ 
+ <div class="borrar"></div>
+</div>
+<div id="principal">
+ <h2> cosas que aprendes en la Prepa.</h2>
+ <p><i> es el período de estudio de entre dos y tres años (cuatro años en el bachillerato con certificación como tecnólogo de la SEP) Se está en preparatoria aproximadamente entre los 15 a 19 años. Algunas modalidades de este nivel educativo se puede ingresar hasta los 22 años, se dividen en varias áreas de especialidad, donde los estudiantes adquieren conocimientos básicos; también hay preparatorias abiertas. Todas deben 
+estar incorporadas a la Secretaría de Educación Pública o a alguna universidad estatal o nacional..<i></p>
+ <p><i><i>La etapa preparatoria se completará con un amistoso ante el seleccionado chino”, “Mañana tendrá lugar la audiencia preparatoria de juicio por el crimen del puente”, “La Casa de la Cultura se convirtió en el escenario de
+ una reunión preparatoria con vistas al próximo Congreso de la Lengua<p>
+ <p><i>2.  Tendrás mayor libertad <p><i>
+ <p><i>3. Tus papás te dejarán de tratar como un niño </i></p>
+ <p><i>4.Podrás elegir tu área de estudios </i></p>
+ <p><i>5. Desarrollarás nuevas habilidades</i></p>
+<img src="https://lh3.googleusercontent.com/proxy/vo-twCP_V1xKR-M1Ahh1wY3clefXRl2ca3UNaYhSGbauTSv_h2onn61S7ppXF4YTfO9MFaXbTMKWz5QArDPBR-IEdHbrcwazGAtNwO6dVDHJ-AIFB3_PwHvM9217URPS">
+<a href="https://blogs.unitec.mx/vida-universitaria/razones-por-que-amaras-la-preparatoria">preparatoria/</a>
+ <a href="http://cetis095.edu.mx">cetis 95/</a>
+
+</div>
+</body>
+</html>
